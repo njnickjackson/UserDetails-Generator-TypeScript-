@@ -3,7 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.User = void 0;
 const randomstring_1 = __importDefault(require("randomstring"));
 const passwordGenerator_1 = __importDefault(require("./passwordGenerator"));
 const dateMaker_1 = __importDefault(require("./dateMaker"));
@@ -28,4 +27,4 @@ class User {
         });
     }
 }
-exports.User = User;
+exports.default = User;
